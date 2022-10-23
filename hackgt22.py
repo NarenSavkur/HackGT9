@@ -25,11 +25,14 @@ solution is the best distro with the best eff value at the end. (note -- have to
 from rl.memory import SequentialMemory
 from rl.policy import BoltzmannQPolicy
 from rl.agents import DQNAgent
+
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.layers import Dense, Flatten
 from tensorflow.keras.models import Sequential
+
 from gym.spaces import Box, Discrete
 from gym import Env
+
 import io
 import pandas as pd
 import numpy as np
